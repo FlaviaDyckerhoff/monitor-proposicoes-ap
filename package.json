@@ -1,0 +1,12 @@
+{
+  "name": "monitor-proposicoes-ap",
+  "version": "1.0.0",
+  "description": "Monitor automático de proposições da Assembleia Legislativa do Amapá",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
