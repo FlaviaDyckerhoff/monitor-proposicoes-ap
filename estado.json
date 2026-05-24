@@ -148,5 +148,12 @@
     "108434",
     "108433"
   ],
-  "ultima_execucao": "2026-05-24T14:25:30.756Z"
+  "ultima_execucao": "2026-05-24T14:25:30.756Z",
+  "ultimos_por_tipo_ano": {
+    "Indicação|2026": 2249,
+    "Requerimento|2026": 1644,
+    "Projeto de Decreto Legislativo|2026": 109,
+    "Projeto de Lei Ordinária|2026": 84,
+    "Moção|2026": 322
+  }
 }
