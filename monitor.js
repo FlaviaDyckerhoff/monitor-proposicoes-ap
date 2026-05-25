@@ -1,8 +1,9 @@
 const fs = require('fs');
 
-const CASA = 'ALAP';
+const CASA = 'Amapá';
 const PORTAL = 'https://elegis.al.ap.leg.br/portal/proposicoes';
 const ARQUIVO_ESTADO = 'estado.json';
+const MAX_PAGES = Number(process.env.MAX_PAGES || 8);
 
 function carregarEstado() {
   if (fs.existsSync(ARQUIVO_ESTADO)) return JSON.parse(fs.readFileSync(ARQUIVO_ESTADO, 'utf8'));
@@ -128,7 +129,7 @@ function extrairProposicoes(html) {
 async function buscarProposicoes() {
   const todas = [];
   const vistos = new Set();
-  for (let pagina = 1; pagina <= 3; pagina++) {
+  for (let pagina = 1; pagina <= MAX_PAGES; pagina++) {
     const html = await buscarPagina(pagina);
     const itens = extrairProposicoes(html);
     console.log(`Página ${pagina}: ${itens.length} proposições`);
