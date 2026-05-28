@@ -508,14 +508,16 @@
     "108836",
     "108877",
     "108876",
-    "108875"
+    "108875",
+    "108879"
   ],
-  "ultima_execucao": "2026-05-27T21:03:24.659Z",
+  "ultima_execucao": "2026-05-28T14:35:21.978Z",
   "ultimos_por_tipo_ano": {
     "Indicação|2026": 2415,
     "Requerimento|2026": 1746,
     "Projeto de Decreto Legislativo|2026": 109,
     "Projeto de Lei Ordinária|2026": 90,
-    "Moção|2026": 335
+    "Moção|2026": 335,
+    "Veto|2026": 42
   }
 }
