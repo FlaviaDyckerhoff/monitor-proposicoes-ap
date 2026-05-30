@@ -144,6 +144,35 @@ async function buscarProposicoes() {
   return todas;
 }
 
+function prioridadeTipoEmail(tipo) {
+  const t = String(tipo || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase()
+    .trim();
+
+  if (/^(PL|PLO)(\b|$)/.test(t) || /^PROJETO DE LEI( ORDINARIA)?$/.test(t)) return 0;
+  if (/^PLC(\b|$)/.test(t) || /^PROJETO DE LEI COMPLEMENTAR/.test(t)) return 1;
+  if (/^PEC(\b|$)/.test(t) || /^(PROPOSTA|PROJETO) DE EMENDA (A )?CONSTITUCIONAL/.test(t)) return 2;
+  return 10;
+}
+
+function numeroProposicaoEmail(p) {
+  const n = Number(String(p?.numero || '').replace(/\D/g, ''));
+  return Number.isFinite(n) ? n : 0;
+}
+
+function compararProposicoesEmail(a, b) {
+  const tipoA = a?.sigla || a?.tipo || '';
+  const tipoB = b?.sigla || b?.tipo || '';
+  const prioridadeA = prioridadeTipoEmail(tipoA);
+  const prioridadeB = prioridadeTipoEmail(tipoB);
+  if (prioridadeA !== prioridadeB) return prioridadeA - prioridadeB;
+  const tipoCmp = String(tipoA).localeCompare(String(tipoB), 'pt-BR');
+  if (tipoCmp !== 0) return tipoCmp;
+  return numeroProposicaoEmail(b) - numeroProposicaoEmail(a);
+}
+
 async function enviarEmail(novas, alertas = []) {
   if (process.env.DRY_RUN_EMAIL === '1') {
     console.log(`[DRY_RUN_EMAIL] ${novas.length} proposições novas.`);
@@ -156,7 +185,8 @@ async function enviarEmail(novas, alertas = []) {
     service: 'gmail',
     auth: { user: process.env.EMAIL_REMETENTE, pass: process.env.EMAIL_SENHA },
   });
-  const linhas = novas.map(p => `<tr>
+  const novasOrdenadas = [...novas].sort(compararProposicoesEmail);
+  const linhas = novasOrdenadas.map(p => `<tr>
     <td style="padding:8px;border-bottom:1px solid #eee"><a href="${escapeHtml(p.link)}"><strong>${escapeHtml(p.tipo)} ${escapeHtml(p.numero)}/${escapeHtml(p.ano)}</strong></a></td>
     <td style="padding:8px;border-bottom:1px solid #eee">${escapeHtml(p.autor)}</td>
     <td style="padding:8px;border-bottom:1px solid #eee;white-space:nowrap">${escapeHtml(p.data)}</td>
