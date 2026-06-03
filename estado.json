@@ -881,16 +881,23 @@
     "109209",
     "109210",
     "109211",
-    "109212"
+    "109212",
+    "109259",
+    "109254",
+    "109255",
+    "109256",
+    "109257",
+    "109253",
+    "109258"
   ],
-  "ultima_execucao": "2026-06-03T15:26:13.247Z",
+  "ultima_execucao": "2026-06-03T21:53:33.738Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 2519,
-    "Requerimento|2026": 1858,
+    "Indicação|2026": 2523,
+    "Requerimento|2026": 1860,
     "Projeto de Decreto Legislativo|2026": 224,
     "Projeto de Lei Ordinária|2026": 94,
     "Moção|2026": 367,
     "Veto|2026": 43,
-    "Projeto de Resolução|2026": 5
+    "Projeto de Resolução|2026": 6
   }
 }
