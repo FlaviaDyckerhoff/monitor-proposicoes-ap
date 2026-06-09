@@ -1191,13 +1191,18 @@
     "109512",
     "109511",
     "109510",
-    "109509"
+    "109509",
+    "109569",
+    "109570",
+    "109568",
+    "109548",
+    "109567"
   ],
-  "ultima_execucao": "2026-06-09T13:41:58.742Z",
+  "ultima_execucao": "2026-06-09T21:02:10.525Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 2582,
+    "Indicação|2026": 2585,
     "Requerimento|2026": 1933,
-    "Projeto de Decreto Legislativo|2026": 382,
+    "Projeto de Decreto Legislativo|2026": 384,
     "Projeto de Lei Ordinária|2026": 95,
     "Moção|2026": 377,
     "Veto|2026": 44,
