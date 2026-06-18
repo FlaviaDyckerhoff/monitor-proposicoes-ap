@@ -1,9 +1,6 @@
 name: Monitor Proposições Amapá
 
 on:
-  schedule:
-    - cron: '0 8 * * 1-5'
-    - cron: '0 19 * * 1-5'
   workflow_dispatch:
 
 permissions:
