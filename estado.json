@@ -1583,12 +1583,17 @@
     "109954",
     "109953",
     "109952",
-    "109948"
+    "109948",
+    "109964",
+    "109963",
+    "109951",
+    "109950",
+    "109949"
   ],
-  "ultima_execucao": "2026-06-18T08:08:43.213Z",
+  "ultima_execucao": "2026-06-18T11:46:32.169Z",
   "ultimos_por_tipo_ano": {
     "Indicação|2026": 2762,
-    "Requerimento|2026": 2106,
+    "Requerimento|2026": 2111,
     "Projeto de Decreto Legislativo|2026": 404,
     "Projeto de Lei Ordinária|2026": 110,
     "Moção|2026": 377,
