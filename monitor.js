@@ -631,6 +631,7 @@ async function enviarEmail(novas, alertas = []) {
     return;
   }
   if (novas.length || alertas.length) {
+    await sincronizarRadar03(novas);
     await enviarEmail(novas, alertas);
     novas.forEach(p => ids.add(p.id));
     estado.proposicoes_vistas = Array.from(ids);
