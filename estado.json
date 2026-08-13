@@ -2402,12 +2402,17 @@
     "110765",
     "110764",
     "110762",
-    "110763"
+    "110763",
+    "110799",
+    "110798",
+    "110795",
+    "110796",
+    "110797"
   ],
-  "ultima_execucao": "2026-08-12T08:09:53.761Z",
+  "ultima_execucao": "2026-08-13T08:09:47.214Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3137,
-    "Requerimento|2026": 2392,
+    "Indicação|2026": 3138,
+    "Requerimento|2026": 2393,
     "Projeto de Decreto Legislativo|2026": 484,
     "Projeto de Lei Ordinária|2026": 126,
     "Moção|2026": 411,
@@ -2415,6 +2420,6 @@
     "Projeto de Resolução|2026": 7,
     "Projeto de Lei Complementar|2026": 3,
     "PLOGEA|2026": 37,
-    "PLOAL|2026": 143
+    "PLOAL|2026": 146
   }
 }
