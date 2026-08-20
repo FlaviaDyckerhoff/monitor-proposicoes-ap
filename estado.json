@@ -2487,11 +2487,13 @@
     "110874",
     "110875",
     "110876",
-    "110877"
+    "110877",
+    "110881",
+    "110880"
   ],
-  "ultima_execucao": "2026-08-19T08:09:45.341Z",
+  "ultima_execucao": "2026-08-20T08:09:57.046Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3177,
+    "Indicação|2026": 3179,
     "Requerimento|2026": 2408,
     "Projeto de Decreto Legislativo|2026": 507,
     "Projeto de Lei Ordinária|2026": 126,
