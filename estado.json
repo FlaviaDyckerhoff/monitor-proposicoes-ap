@@ -2658,11 +2658,13 @@
     "111048",
     "111049",
     "111050",
-    "111051"
+    "111051",
+    "111053",
+    "111054"
   ],
-  "ultima_execucao": "2026-09-09T08:09:50.011Z",
+  "ultima_execucao": "2026-09-10T08:09:46.367Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3260,
+    "Indicação|2026": 3262,
     "Requerimento|2026": 2470,
     "Projeto de Decreto Legislativo|2026": 519,
     "Projeto de Lei Ordinária|2026": 126,
