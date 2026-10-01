@@ -2772,11 +2772,12 @@
     "111143",
     "111142",
     "111137",
-    "111138"
+    "111138",
+    "111172"
   ],
-  "ultima_execucao": "2026-09-30T08:09:50.931Z",
+  "ultima_execucao": "2026-10-01T08:09:54.841Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3307,
+    "Indicação|2026": 3308,
     "Requerimento|2026": 2532,
     "Projeto de Decreto Legislativo|2026": 521,
     "Projeto de Lei Ordinária|2026": 126,
