@@ -2773,9 +2773,10 @@
     "111142",
     "111137",
     "111138",
-    "111172"
+    "111172",
+    "111173"
   ],
-  "ultima_execucao": "2026-10-01T08:09:54.841Z",
+  "ultima_execucao": "2026-10-02T08:09:51.935Z",
   "ultimos_por_tipo_ano": {
     "Indicação|2026": 3308,
     "Requerimento|2026": 2532,
@@ -2785,7 +2786,7 @@
     "Veto|2026": 50,
     "Projeto de Resolução|2026": 7,
     "Projeto de Lei Complementar|2026": 4,
-    "PLOGEA|2026": 38,
+    "PLOGEA|2026": 40,
     "PLOAL|2026": 160
   }
 }
