@@ -2858,11 +2858,18 @@
     "111252",
     "111247",
     "111253",
-    "111254"
+    "111254",
+    "111264",
+    "111265",
+    "111259",
+    "111260",
+    "111261",
+    "111262",
+    "111263"
   ],
-  "ultima_execucao": "2026-10-21T08:09:52.039Z",
+  "ultima_execucao": "2026-10-26T08:09:55.963Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3339,
+    "Indicação|2026": 3346,
     "Requerimento|2026": 2570,
     "Projeto de Decreto Legislativo|2026": 523,
     "Projeto de Lei Ordinária|2026": 126,
