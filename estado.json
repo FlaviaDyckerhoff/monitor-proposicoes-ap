@@ -2881,12 +2881,15 @@
     "111276",
     "111277",
     "111275",
-    "111274"
+    "111274",
+    "111284",
+    "111283",
+    "111282"
   ],
-  "ultima_execucao": "2026-10-28T08:09:51.264Z",
+  "ultima_execucao": "2026-10-29T08:09:46.960Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3354,
-    "Requerimento|2026": 2577,
+    "Indicação|2026": 3355,
+    "Requerimento|2026": 2578,
     "Projeto de Decreto Legislativo|2026": 523,
     "Projeto de Lei Ordinária|2026": 126,
     "Moção|2026": 418,
