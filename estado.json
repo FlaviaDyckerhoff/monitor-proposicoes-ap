@@ -2909,15 +2909,19 @@
     "111297",
     "111298",
     "111299",
-    "111300"
+    "111300",
+    "111314",
+    "111313",
+    "111312",
+    "111311"
   ],
-  "ultima_execucao": "2026-11-03T08:09:46.852Z",
+  "ultima_execucao": "2026-11-04T08:09:52.913Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3376,
+    "Indicação|2026": 3379,
     "Requerimento|2026": 2579,
     "Projeto de Decreto Legislativo|2026": 523,
     "Projeto de Lei Ordinária|2026": 126,
-    "Moção|2026": 418,
+    "Moção|2026": 419,
     "Veto|2026": 50,
     "Projeto de Resolução|2026": 7,
     "Projeto de Lei Complementar|2026": 4,
