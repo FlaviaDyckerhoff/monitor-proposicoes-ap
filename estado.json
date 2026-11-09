@@ -2938,11 +2938,14 @@
     "111341",
     "111342",
     "111343",
-    "111344"
+    "111344",
+    "111346",
+    "111347",
+    "111348"
   ],
-  "ultima_execucao": "2026-11-06T08:09:47.992Z",
+  "ultima_execucao": "2026-11-09T08:09:50.147Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3400,
+    "Indicação|2026": 3403,
     "Requerimento|2026": 2580,
     "Projeto de Decreto Legislativo|2026": 523,
     "Projeto de Lei Ordinária|2026": 126,
