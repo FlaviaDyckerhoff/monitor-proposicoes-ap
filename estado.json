@@ -2978,12 +2978,13 @@
     "111380",
     "111379",
     "111378",
-    "111386"
+    "111386",
+    "111387"
   ],
-  "ultima_execucao": "2026-11-12T08:09:45.298Z",
+  "ultima_execucao": "2026-11-13T08:09:58.211Z",
   "ultimos_por_tipo_ano": {
     "Indicação|2026": 3426,
-    "Requerimento|2026": 2591,
+    "Requerimento|2026": 2592,
     "Projeto de Decreto Legislativo|2026": 523,
     "Projeto de Lei Ordinária|2026": 126,
     "Moção|2026": 419,
