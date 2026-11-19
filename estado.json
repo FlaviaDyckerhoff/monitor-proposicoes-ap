@@ -3054,12 +3054,14 @@
     "111453",
     "111454",
     "111455",
-    "111456"
+    "111456",
+    "111464",
+    "111465"
   ],
-  "ultima_execucao": "2026-11-18T08:09:44.068Z",
+  "ultima_execucao": "2026-11-19T08:09:52.749Z",
   "ultimos_por_tipo_ano": {
     "Indicação|2026": 3467,
-    "Requerimento|2026": 2620,
+    "Requerimento|2026": 2622,
     "Projeto de Decreto Legislativo|2026": 524,
     "Projeto de Lei Ordinária|2026": 126,
     "Moção|2026": 419,
