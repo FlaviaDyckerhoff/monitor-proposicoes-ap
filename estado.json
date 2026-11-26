@@ -3125,12 +3125,16 @@
     "111513",
     "111512",
     "111511",
-    "111488"
+    "111488",
+    "111544",
+    "111545",
+    "111543",
+    "111542"
   ],
-  "ultima_execucao": "2026-11-25T08:09:53.871Z",
+  "ultima_execucao": "2026-11-26T08:10:06.017Z",
   "ultimos_por_tipo_ano": {
-    "Indicação|2026": 3509,
-    "Requerimento|2026": 2643,
+    "Indicação|2026": 3511,
+    "Requerimento|2026": 2645,
     "Projeto de Decreto Legislativo|2026": 525,
     "Projeto de Lei Ordinária|2026": 126,
     "Moção|2026": 420,
